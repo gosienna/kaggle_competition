@@ -6,10 +6,12 @@ authors = ["kewei chen <gosienna@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.12"
 pandas = "^2.2.0"
 matplotlib = "^3.8.2"
-numpy = "^1.26.4"
+numpy = ">=1.19.2"
+pyarrow = "^15.0.0"
+tensorflow_gpu = "2.11"
 
 
 [tool.poetry.group.dev.dependencies]
